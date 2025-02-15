@@ -1,0 +1,50 @@
+# 📌 全局忽略规则（适用于整个仓库）
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.swp
+
+# ========================
+# 🏗 Java Spring Boot (backend/)
+# ========================
+backend/target/
+backend/.mvn/
+backend/.idea/
+backend/.vscode/
+backend/*.iml
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings/
+backend/.sts4-cache
+backend/.springBeans
+
+# NetBeans & Gradle
+backend/nbproject/private/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
+backend/build/
+!backend/**/src/main/**/build/
+!backend/**/src/test/**/build/
+
+# ========================
+# 🎨 Vue.js (vue-frontend/)
+# ========================
+vue-frontend/node_modules/
+vue-frontend/dist/
+vue-frontend/.idea/
+vue-frontend/.vscode/
+vue-frontend/*.suo
+vue-frontend/*.ntvs*
+vue-frontend/*.njsproj
+vue-frontend/*.sln
+vue-frontend/.sw?
+
+# Local environment files
+vue-frontend/.env.local
+vue-frontend/.env.*.local
