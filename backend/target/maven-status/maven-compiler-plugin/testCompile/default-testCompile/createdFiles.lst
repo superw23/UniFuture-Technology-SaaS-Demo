@@ -1,0 +1,8 @@
+com\app\Service\CustomerServiceTest.class
+com\app\Service\SaleServiceTest.class
+com\app\Service\SupplierServiceTest.class
+com\app\Repository\PurchaseRepositoryTest.class
+com\app\Service\PurchaseServiceTest.class
+com\app\Repository\SaleRepositoryTest.class
+com\app\Repository\ProductRepositoryTest.class
+com\app\Repository\SupplierRepositoryTest.class
